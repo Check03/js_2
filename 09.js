@@ -7,11 +7,11 @@ const myH2 = document.getElementById('myH2')
 //ЗАДАНИЕ 1
 //function buttonClick() {
 //
-//   let value = myImput.value;
-//   console.timeLog(value);
-//   let i = 0; 
-//   let y = 0;
-//   while (i < value) { // выводит 0-3
+//   let value = myImput.value; //ввод числа
+//   console.log(value);
+//   let i = 0; //переменная
+//   let y = 0; //переменная
+//   while (i < value) { // выводит 0-3 //цикл
 //   i++;  
 // }
 // while (y < i) {
@@ -25,7 +25,7 @@ const myH2 = document.getElementById('myH2')
 //function buttonClick() {
 //   
 //   let value = myImput.value;
-//   console.timeLog(value);
+//   console.log(value);
 //   let i = value;  
 //    while (i) { 
 //      alert  (i);
@@ -51,8 +51,8 @@ const myH2 = document.getElementById('myH2')
 //function buttonClick() {
 //   let value = myImput.value; 
 //   let value_2 = my_Imput.value;
-//   console.timeLog(value);
-//   console.timeLog(value_2);
+//   console.log(value);
+//   console.log(value_2);
 //   let i = value; 
 //   let r = value_2; 
 //   myH.innerText = i ** r;
@@ -63,8 +63,8 @@ const myH2 = document.getElementById('myH2')
 //function buttonClick() {
 //  let value = myImput.value; 
 //  let value_2 = my_Imput.value;
-//  console.timeLog(value);
-//  console.timeLog(value_2);
+//  console.log(value);
+//  console.log(value_2);
 //  let n = value;
 //  let m = value_2;
 //var divisors = [];    //divisors будет заполнен всеми делителями числа n                     
@@ -101,7 +101,7 @@ const myH2 = document.getElementById('myH2')
 
 //function buttonClick() {
 //     let value = myImput.value; 
-//     console.timeLog(value);
+//     console.log(value);
 //     let number = value; //ввод числа
 //     let numberFactorial = number; 
 //         while(number > 1){   //цикл
@@ -119,34 +119,66 @@ const myH2 = document.getElementById('myH2')
 //  number = parseInt(prompt("2 + 2 * 2", ""));
 //} while ((number) != (2 + 2 * 2));
 
+
+
 // ЧАСТЬ 2 ЗАДАНИЕ 2
 //function buttonClick() {
 //     let value = myImput.value; 
-//     console.timeLog(value);
+//     console.log(value);
 //     let i = value; //ввод числа
 //     do {
-//      i = i/2;
+//     i = i/2;
 //     } while(i >= 50)
 //  myH.innerText = i;
 //}
 
 
-// ЧАСТЬ 3 ЗАДАНИЕ 1
-function buttonClick() {
-       let value = myImput.value; 
-       console.timeLog(value);
-       let num = value; //ввод числа
-       for (let i = 1; i <= 100; i++) {
-        if (i % num === 0) 
-        console.info(i);
-          myH.innerText = (i);
-
-       }
-}
+// ЧАСТЬ 2 (for) ЗАДАНИЕ 3    РАБОТАЕТ НО ТОЛЬКО ЧЕРЕЗ КОНСОЛЬ:(( я чето думал но недодумал как на строку пока так >(console.info(i);) ctrl+shift+c
+//function buttonClick() {    
+//       let value = myImput.value; 
+//       console.log(value);
+//       let num = value; //ввод числа
+//       for (let i = 1; i <= 100; i++) {  //for создаёт цикл
+//       if (i % num === 0) 
+//       console.info(i);
+//       }
+//}
 
 
 
+// ЧАСТЬ 2 (for) ЗАДАНИЕ 4 без кнопки:( спать хочу очече
+//let min = parseInt(prompt("Введите минимальное значение диапазона:"));
+//let max = parseInt(prompt("Введите максимальное значение диапазона:"));
+//
+//for (let i = min; i <= max; i += 4) {
+//    console.log(i);
+//}
+
+
+// ЧАСТЬ 2 (for) ЗАДАНИЕ 5 хехе тут с кнопочной :)
+//function buttonClick() {
+//     let value = myImput.value; 
+//     console.log(value);
+//     let number = value; 
+//     let isPrime = true;    
+//     for (let i = 2; i < number; i++) {
+//       if (number % i === 0) {
+//       isPrime = false;
+//       break;
+//       }
+//   }
+//       if (isPrime) {
+//              myH.innerText = (true);
+//       } else {
+//              myH.innerText = (false);
+//       }
+//}
 
 
 
 
+
+
+
+// НА ЭТОМ ВСЕ
+// И ГЛАВНОЕ Нажмайте на кнопочку почаще :)
